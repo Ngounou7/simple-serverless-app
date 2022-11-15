@@ -56,7 +56,7 @@ export async function updateTodo(todo: TodoItem): Promise<TodoItem> {
       userId: todo.userId,
       todoId: todo.todoId
     },
-    UpdateExpression: 'attachmentUrl = :attachmentUrl',
+    UpdateExpression: 'set attachmentUrl = :attachmentUrl',
     ExpressionAttributeValues: {
         ':attachmentUrl': todo.attachmentUrl
     }
