@@ -5,18 +5,10 @@
   "properties": {
     "name": {
       "type": "string"
-    },
-    "dueDate": {
-      "type": "string"
-    },
-    "done": {
-      "type": "boolean"
     }
   },
   "required": [
-    "name",
-    "dueDate",
-    "done"
+    "name"
   ],
   "additionalProperties": false
 }
